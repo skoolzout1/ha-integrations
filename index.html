@@ -16,10 +16,7 @@
         }
         h1 { color: #0366d6; }
         h2 { color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px; }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
+        a { color: #0366d6; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .card {
             border: 1px solid #d0d7de;
@@ -27,13 +24,6 @@
             padding: 24px;
             margin: 20px 0;
             background-color: #fafafa;
-        }
-        .key-list {
-            font-family: monospace;
-            background-color: #f6f8fa;
-            padding: 12px;
-            border-radius: 6px;
-            word-break: break-all;
         }
         footer {
             margin-top: 60px;
@@ -50,25 +40,25 @@
     <div class="card">
         <h2>Legal Documents</h2>
         <ul>
-            <li><strong><a href="privacy-policy.html">Privacy Policy</a></strong> — How data is accessed, stored, and protected.</li>
-            <li><strong><a href="terms-of-service.html">Terms of Service</a></strong> — Terms governing these personal integrations.</li>
+            <li><strong><a href="privacy-policy.html">Privacy Policy</a></strong></li>
+            <li><strong><a href="terms-of-service.html">Terms of Service</a></strong></li>
         </ul>
     </div>
 
     <div class="card">
         <h2>Public Keys</h2>
-        <p>Public keys hosted here </p>
+        <p>public keys:</p>
         
         <ul>
-            <li><a href=".well-known/appspecific/public-key.pem">Public Key (public-key.pem)</a></li>
+            <li><a href=".well-known/appspecific/public-key.pem">Public Key</a> — <code>public-key.pem</code></li>
         </ul>
 
-        <p><strong>Base URL:</strong> <code>https://skoolzout1.github.io/ha-integrations/</code></p>
+        <p><strong>Direct link:</strong> <code>https://skoolzout1.github.io/ha-integrations/.well-known/appspecific/public-key.pem</code></p>
     </div>
 
     <hr>
     <footer>
-        <p>Personal use only • Self-hosted via Home Assistant • No commercial use or data sharing</p>
+        <p>Personal use only • Self-hosted via Home Assistant</p>
     </footer>
 </body>
 </html>
